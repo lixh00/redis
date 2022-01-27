@@ -3,13 +3,13 @@ package redis
 import (
 	"context"
 	"fmt"
+	"github.com/lixh00/oauth2/v4"
 	"time"
 
-	"github.com/go-oauth2/oauth2/v4"
-	"github.com/go-oauth2/oauth2/v4/models"
 	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"
 	jsoniter "github.com/json-iterator/go"
+	"github.com/lixh00/oauth2/v4/models"
 )
 
 var (
